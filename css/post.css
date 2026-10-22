@@ -109,3 +109,6 @@ body{margin:0;background:light-dark(#e7e4dd,#11171d);color-scheme:light dark}
 #post-site .notice{padding:20px}
 @media(max-width:760px){#post-site .post-layout{grid-template-columns:minmax(0,1fr)}#post-site .post-aside{border-left:0;border-top:1px solid var(--rule);padding:24px 0 0;margin-top:16px}#post-site .post-mini-writer{max-width:400px}#post-site .post-nav{gap:5px}}
 @media(max-width:470px){#post-site .post-topline{padding:12px 16px}#post-site .post-content{padding:24px 16px}#post-site .post-nav{margin:0 16px;justify-content:flex-start;gap:0}#post-site .post-nav a{padding:12px 9px 10px}#post-site .post-footer{margin-left:16px;margin-right:16px}#post-site .post-profile{display:flex;flex-direction:column;gap:16px}#post-site .post-profile img.post-portrait{width:130px;height:130px}#post-site .post-extra-col{display:none}#post-site th,#post-site td{padding:12px 5px}#post-site .post-comment-section{padding:16px}#post-site .post-masthead .post-name span{display:block}#post-site .post-masthead .post-name{letter-spacing:-.7px}#post-site .post-number{font-size:11px}#post-site .post-tabs a{padding:12px 8px}}
+
+.post-tournament + .post-tournament{margin-top:2.5rem;border-top:2px solid #172435;padding-top:1.5rem}
+.post-weight-heading{margin:1.5rem 0 .5rem;font-family:Georgia,serif;font-size:1.15rem}
